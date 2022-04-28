@@ -150,7 +150,7 @@ button.Resume-button {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    color: #82a7d7;
+    color: #3a97eb;
     margin-inline-end: 100px;
     margin-left: -40px;
 }
@@ -349,4 +349,57 @@ p.lang-text {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     color: #535353;
+}
+
+.right-column {
+    display: flex;
+    background-color: #ffffff;
+    height: 330px;
+    width: 250px;
+    margin-left: 25px;
+    margin-right: 60px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px 1px #0301010a;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.atom {
+    display: flex;
+    height: 110px;
+    margin-top: 30px;
+}
+
+h2.sign-up {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #535353;
+}
+
+p.text-sign-up {
+    display: flex;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+button.button-signup {
+    display: flex;
+    background-color: #3a97eb;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+
+button.learn-more {
+    display: flex;
+    border: none;
+    color: #4097ee;
+    padding: 10px 35px;
+    background: none;
+    margin-top: 5px;
 }
