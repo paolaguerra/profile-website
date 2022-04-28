@@ -1,0 +1,352 @@
+body {
+    background-color: #81a7d5;
+}
+
+.contenedor-principal {
+    background-color: #f8f9fd;
+    width: 90vw;
+    min-height: 90vw;
+    margin:5%;
+    border-radius: 15px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 90vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0px 2px 7px #dcdcdc42;
+}
+
+.menu {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.logo {
+    width: 43px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.menu-items {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.ProfileMainBox {
+    display: flex;
+    background-color: #ffffff;
+    height: 231px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px 1px #0301010a;
+}
+.seccion-A {
+    display: flex;
+}
+
+img.profile {
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.titles {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+h1.profile-name {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #464646;
+    font-size: 25px;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+h2.profile-price {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #464646;
+    font-size: 15px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 123px;
+}
+
+p.profile-title {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+p.profile-work {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: -10px;
+    color: #82a7d7;
+}
+
+.profile-text-A {
+    margin-left: 30px;
+}
+
+button.contact-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 3px;
+}
+
+button.Resume-button {
+    background-color: #ffffff;
+    border: 2px solid #1e74ac;
+    color: #1e74ac;
+    padding: 10px 19px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.v-line{
+    display: flex;
+    border-left: solid #a6a6a626;
+    height: 23%;
+    left: 50%;
+    position: absolute;
+   }
+
+.seccion-B {
+    display: flex;
+    margin-left: 85px;
+}
+
+.profile-text-B {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #82a7d7;
+    margin-inline-end: 100px;
+    margin-left: -40px;
+}
+
+p.description-profile {
+    margin-top: 0px;
+    display: flex;
+}
+
+p.data-profile {
+    font-weight: lighter;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.availavility-on-off {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 3px 21px;
+    font-size: 9px;
+    font-weight: lighter;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+button.back {
+    padding: 0;
+    border: none;
+    background: none;
+    padding-top: 20px;
+    padding-left: 59px;
+}
+
+.btn-1-2 {
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.btn {
+    border: none;
+    background: none;
+    margin-left: 10px;
+    display: flex;
+}
+
+button.btn-selected {
+    color: #82a7d7;
+    border-bottom: solid 3px;
+}
+
+.h-line {
+    height: 1px;
+    width: 95%;
+    background-color: #82a7d7;
+    display: flex;
+}
+
+.contenedor-profile {
+    display: flex;
+}
+
+.websites {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 200px;
+    width: 250px;
+    margin-left: 60px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px 1px #0301010a;
+}
+
+h2.websites-h2 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #535353;
+    display: flex;
+}
+
+p.links-websites {
+    font-size: 13px;
+    color: #838383;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-left: 30px;
+}
+
+.profile-main-column {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 700px;
+    width: 690px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px 1px #0301010a;
+}
+
+h2.about-h2 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #535353;
+    display: flex;
+}
+
+p.about-p {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.h-line-about {
+    height: 1px;
+    width: 90%;
+    background-color: #dbdbdb;
+    display: flex;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+h2.skills-h2 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    color: #535353;
+    display: flex;
+}
+
+.tag-skills {
+    display: flex;
+    background-color: white;
+    color: black;
+    border: 1px solid #a4a4a4;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 5px;
+}
+
+h2.languages-h2 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #535353;
+    display: flex;
+}
+
+.languages-content {
+    display: flex;
+}
+
+.lang-category {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+img.flag {
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+
+p.lang-text {
+    display: flex;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #535353;
+}
